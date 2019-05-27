@@ -8,7 +8,7 @@ import {timeOut} from './node_modules/@polymer/polymer/lib/utils/async.js';
  * @customElement
  * @polymer
  */
-class ScFittedText extends PolymerElement {
+export class ScFittedText extends PolymerElement {
 	static get template() {
 		return html`
                 <style>
