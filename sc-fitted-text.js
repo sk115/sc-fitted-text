@@ -1,8 +1,8 @@
 /* eslint-disable indent */
-import {PolymerElement, html} from './node_modules/@polymer/polymer/polymer-element.js';
-import {beforeNextRender} from './node_modules/@polymer/polymer/lib/utils/render-status.js';
-import {Debouncer} from './node_modules/@polymer/polymer/lib/utils/debounce.js';
-import {timeOut} from './node_modules/@polymer/polymer/lib/utils/async.js';
+import {PolymerElement, html} from '@polymer/polymer/polymer-element.js';
+import {beforeNextRender} from '@polymer/polymer/lib/utils/render-status.js';
+import {Debouncer} from '@polymer/polymer/lib/utils/debounce.js';
+import {timeOut} from '@polymer/polymer/lib/utils/async.js';
 
 /**
  * @customElement
