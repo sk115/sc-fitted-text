@@ -22,7 +22,7 @@ export class ScFittedText extends PolymerElement {
                 }
                 </style>
 
-                <div id="fittedContent" style="[[styleInsert]]"></div>
+                <div id="fittedContent"></div>
             `;
 	}
 
@@ -31,10 +31,6 @@ export class ScFittedText extends PolymerElement {
 			text: {
 				type: String,
 				observer: '_textChanged'
-			},
-			styleInsert: {
-				type: String,
-				value: ""
 			},
 			maxWidth: {
 				type: Number,
